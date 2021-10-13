@@ -1,0 +1,6 @@
+---
+title: "Projects"
+output: html_document
+---
+library(distill)
+create_website(dir = ".", title = "Nathanial VanDyk", gh_pages = TRUE)
